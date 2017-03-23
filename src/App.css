@@ -26,6 +26,9 @@
 
 .body {
     font-family: 'Crimson Text', serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .intro {
@@ -59,14 +62,8 @@
 }
 
 .bodyText {
-  min-height: 100%;
-  margin-bottom: 200px;
-}
-
-.bodyText::after {
-  content: "";
-  display: block;
-  height: 120px;
+  flex: 1;
+  padding: 20px;
 }
   
 /*Footer*/
@@ -81,7 +78,7 @@
 }
 
 .mediaIcon figcaption {
-  color: #ffffff;
+  color: #262626;
 }
 
 .footer {
@@ -90,7 +87,8 @@
   left: 0;
   right: 0;
   width: 100%;
-*/
-  background-color: #afafaf;
   height: 120px;
+  */
+  background-color: whitesmoke;
+  padding: 20px;
 }
