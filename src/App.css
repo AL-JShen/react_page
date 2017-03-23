@@ -58,6 +58,19 @@
     font-size: 1.2em;
 }
 
+.bodyText {
+  min-height: 100%;
+  margin-bottom: 200px;
+}
+
+.bodyText::after {
+  content: "";
+  display: block;
+  height: 120px;
+}
+  
+/*Footer*/
+
 .mediaIcon {
   display: inline-block;
 }
@@ -71,12 +84,13 @@
   color: #ffffff;
 }
 
-.mediaBar {
-  position: absolute;
+.footer {
+/*  
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
+*/
   background-color: #afafaf;
   height: 120px;
 }
