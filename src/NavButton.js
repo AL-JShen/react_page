@@ -4,7 +4,7 @@ class NavButton extends Component {
     render() {
         return (
             <button>
-                this.props.text
+                {this.props.text}
             </button>
         );
     }
