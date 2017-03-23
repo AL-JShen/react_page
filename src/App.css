@@ -41,8 +41,8 @@
 }
 
 .image img {
-    width: 998px;
-    height: 768px;
+    width: 910px;
+    height: 700px;
 }
 
 
@@ -56,4 +56,27 @@
     text-align: justify;
     font-family: serif;
     font-size: 1.2em;
+}
+
+.mediaIcon {
+  display: inline-block;
+}
+
+.mediaIcon img{
+  margin: 10px 25px auto;
+  height: 70px;
+}
+
+.mediaIcon figcaption {
+  color: #ffffff;
+}
+
+.mediaBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #afafaf;
+  height: 120px;
 }

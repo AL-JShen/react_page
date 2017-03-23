@@ -5,8 +5,8 @@ class ImageBlock extends Component {
         return (
             <div className='image'>
               <figure>
-                <img src='https://i.redd.it/pu7kpjvtl1ny.jpg' alt='Lake Kirkpatrick, Queenstown, New Zealand'/>
-                <figcaption className='caption'>Lake Kirkpatrick, Queenstown, New Zealand. Image credit: <a href='https://www.reddit.com/user/south_of_home'>/u/south_of_home on Reddit</a></figcaption>
+                <img src={this.props.url} alt={this.props.alt}/>
+                <figcaption className='caption'>{this.props.caption}</figcaption>
               </figure>
             </div>
         );
